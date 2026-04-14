@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2, h3 {
+    font-weight: 600;
+}
+
+.contact-card {
+    border-radius: 15px;
+    transition: 0.3s;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+.form-card {
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+input {
+    background: rgba(255,255,255,0.2) !important;
+    color: white !important;
+    border: none !important;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+.btn {
+    border-radius: 10px;
+}
